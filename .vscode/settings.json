@@ -2,5 +2,18 @@
     "files.associations": {
         "iostream": "cpp"
     },
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "workbench.colorCustomizations": {
+        "panel.border": "#0074e6",
+        "sash.hoverBorder": "#0074e6",
+        "tab.activeBorder": "#0074e6",
+        "sideBar.border": "#0074e6",
+        "statusBar.background": "#005ab3",
+        "statusBar.border": "#005ab3",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#0074e6",
+        "statusBarItem.remoteBackground": "#005ab3",
+        "statusBarItem.remoteForeground": "#e7e7e7"
+    },
+    "peacock.color": "#005ab3"
 }
