@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    #timer {
+      font-size: 2em;
+      margin: 20px;
+    }
+
+    button {
+      font-size: 1em;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  </style>
+  <title>Timer Example</title>
+</head>
+<body>
+
+<div id="timer">00:00</div>
+<button onclick="startTimer()">Start</button>
+<button onclick="resetTimer()">Reset</button>
+
+<script>
+  let timer;
+  let timeInSeconds = 0;
+
+  function startTimer() {
+    if (!timer) {
+      timer = setInterval(updateTimer, 1000);
+    }
+  }
+
+  function updateTimer() {
+    timeInSeconds++;
+    const minutes = Math.floor(timeInSeconds / 60);
+    const seconds = timeInSeconds % 60;
+    document.getElementById('timer').textContent = padNumber(minutes) + ':' + padNumber(seconds);
+  }
+
+  function resetTimer() {
+    clearInterval(timer);
+    timer = null;
+    timeInSeconds = 0;
+    document.getElementById('timer').textContent = '00:00';
+  }
+
+  function padNumber(number) {
+    return number < 10 ? '0' + number : number;
+  }
+</script>
+
+</body>
+</html>
