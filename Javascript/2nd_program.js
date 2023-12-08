@@ -17,7 +17,7 @@ function bubbleSort(arr) {
 }
 
 // Example usage:
-const unsortedArray = [64, 34, 25, 12, 22, 11, 90];
+const unsortedArray = [64, 34, 25, 12, 22, 11, 90, 80, 55, 21];
 const sortedArray = bubbleSort(unsortedArray.slice());
 
 console.log("Unsorted Array:", unsortedArray);

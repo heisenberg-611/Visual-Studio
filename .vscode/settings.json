@@ -4,18 +4,18 @@
     },
     "C_Cpp.errorSquiggles": "enabled",
     "workbench.colorCustomizations": {
-        "panel.border": "#0074e6",
-        "sash.hoverBorder": "#0074e6",
-        "tab.activeBorder": "#0074e6",
-        "sideBar.border": "#0074e6",
-        "statusBar.background": "#005ab3",
-        "statusBar.border": "#005ab3",
+        "panel.border": "#0081ff",
+        "sash.hoverBorder": "#0081ff",
+        "tab.activeBorder": "#0081ff",
+        "sideBar.border": "#0081ff",
+        "statusBar.background": "#0067cc",
+        "statusBar.border": "#0067cc",
         "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#0074e6",
-        "statusBarItem.remoteBackground": "#005ab3",
+        "statusBarItem.hoverBackground": "#0081ff",
+        "statusBarItem.remoteBackground": "#0067cc",
         "statusBarItem.remoteForeground": "#e7e7e7"
     },
-    "peacock.color": "#005ab3",
+    "peacock.color": "#0067cc",
     "python.testing.unittestArgs": [
         "-v",
         "-s",
@@ -25,5 +25,15 @@
     ],
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true,
-    "liveServer.settings.multiRootWorkspaceName": "Visual Studio"
+    "liveServer.settings.multiRootWorkspaceName": "Visual Studio",
+    "code-runner.customCommand": "cmd",
+    "code-runner.clearPreviousOutput": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "terminal.integrated.ignoreProcessNames": [
+        "starship",
+        "oh-my-posh",
+        "zsh"
+    ]
 }
