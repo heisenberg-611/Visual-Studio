@@ -5,7 +5,7 @@ int main()
 {
     int magic; /* magic number */ 
     int guess; /* user's guess */
-    magic = rand(); /* get a random number */
+    magic = (rand() % 100 )+ 1; /* get a random number */
     printf("Guess the magic number: "); 
     scanf("%d", &guess);
     if (guess == magic) {
