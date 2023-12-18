@@ -35,5 +35,7 @@
         "starship",
         "oh-my-posh",
         "zsh"
-    ]
+    ],
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth"
 }
