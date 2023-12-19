@@ -6,7 +6,7 @@ body{
 }
 #myH1{
     font-size: 4rem;
-    font-family: "Helvatica";
+    font-family: "Helvatica", sans-serif;
     color: hsl(0, 0%, 25%);
 }
 #container{
