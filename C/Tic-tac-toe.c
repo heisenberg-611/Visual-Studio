@@ -1,3 +1,9 @@
+/**
+ * Implements a simple Tic Tac Toe game.
+ * Allows a human player to play against a computer player.
+ * Initializes the board, gets player and computer moves,
+ * checks for a winner after each turn, and displays the final board.
+ */
 /* A simple Tic Tac Toe game. */
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,29 +14,40 @@
    void get_computer_move(void);
    void disp_matrix(void);
 
+/**
+ * The main function implements the Tic Tac Toe game loop.
+ * It initializes the board, displays it, gets player and computer moves in turn,
+ * checks for a winner after each turn, and displays the final winner.
+ */
 int main(void)
 {
     char done;
-        printf("This is the game of Tic Tac Toe.\n");
-        printf("You will be playing against the computer.\n");
-        done = ' ';
+    printf("This is the game of Tic Tac Toe.\n");
+    printf("You will be playing against the computer.\n");
+    done = ' ';
     init_matrix();
-    do{
+    do
+    {
         disp_matrix();
         get_player_move();
         done = check(); /* see if winner */
-        if(done!= ' ') 
+        if (done != ' ')
             break; /* winner!*/
         get_computer_move();
         done = check(); /* see if winner */
-    } while(done== ' ');
-    
-    if(done=='X'){
-    printf("You won!\n");}
-    else {printf("I won!!!!\n");}
+    } while (done == ' ');
+
+    if (done == 'X')
+    {
+        printf("You won!\n");
+    }
+    else
+    {
+        printf("I won!!!!\n");
+    }
     disp_matrix(); /* show final positions */
     return 0;
-} 
+}
     /* Initialize the matrix. */
     void init_matrix(void)
     {
@@ -88,21 +105,27 @@ int main(void)
         printf("\n");
     }
     /* See if there is a winner. */
-    char check(void)
-    {
+/**
+ * Checks if there is a winner by checking rows, columns and diagonals.
+ * Returns 'X' or 'O' if there is a winner, ' ' if no winner.
+ */
+char check(void)
+{
     int i;
-    for(i=0; i<3; i++)  /* check rows */
-        if(matrix[i][0]==matrix[i][1] &&
-        matrix[i][0]==matrix[i][2]) return matrix[i][0];
-    for(i=0; i<3; i++)  /* check columns */
-        if(matrix[0][i]==matrix[1][i] &&
-        matrix[0][i]==matrix[2][i]) return matrix[0][i];
-        /* test diagonals */
-    if(matrix[0][0]==matrix[1][1] &&
-        matrix[1][1]==matrix[2][2])
+    for (i = 0; i < 3; i++) /* check rows */
+        if (matrix[i][0] == matrix[i][1] &&
+            matrix[i][0] == matrix[i][2])
+            return matrix[i][0];
+    for (i = 0; i < 3; i++) /* check columns */
+        if (matrix[0][i] == matrix[1][i] &&
+            matrix[0][i] == matrix[2][i])
+            return matrix[0][i];
+    /* test diagonals */
+    if (matrix[0][0] == matrix[1][1] &&
+        matrix[1][1] == matrix[2][2])
         return matrix[0][0];
-    if(matrix[0][2]==matrix[1][1] &&
-        matrix[1][1]==matrix[2][0])
+    if (matrix[0][2] == matrix[1][1] &&
+        matrix[1][1] == matrix[2][0])
         return matrix[0][2];
-    return ' '; 
+    return ' ';
 }

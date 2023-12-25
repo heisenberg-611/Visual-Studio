@@ -1,3 +1,6 @@
+/**
+ * Includes the standard input/output header file. This provides declarations for standard I/O functions like printf and scanf.
+ */
 #include <stdio.h>
 int main(void)
 {
