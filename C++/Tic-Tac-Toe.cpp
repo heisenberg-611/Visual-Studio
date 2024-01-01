@@ -1,5 +1,6 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
+#include <cmath>
 
     char matrix[3][3];  /* the tic tac toe matrix */
     char check(void);
