@@ -1,11 +1,11 @@
 import torch
 import numpy as np
 
-a = torch.ones(5)
-print(a)
-b = a.numpy()
-print(type(b))
+tensor_4d = torch.rand(2, 3, 4, 5)
+print(tensor_4d)
 
-a.add_(2)
-print(a)
-print(b)
+np = np.random.rand(2, 3, 4, 5)
+
+##create tensor out of numpy array
+my_tensor = torch.tensor(np)
+print(my_tensor.shape)
