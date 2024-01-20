@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Class_5",
+            "request": "launch",
+            "mainClass": "BroCode.Java.Class_5",
+            "projectName": "Visual Studio_4a84571b"
+        },
+        {
+            "type": "java",
+            "name": "Class_4",
+            "request": "launch",
+            "mainClass": "BroCode.Java.Class_4",
+            "projectName": "Visual Studio_4a84571b"
+        },
+        {
+            "type": "java",
+            "name": "Class_3",
+            "request": "launch",
+            "mainClass": "BroCode.Java.Class_3",
+            "projectName": "Visual Studio_4a84571b"
+        },
+        {
+            "type": "java",
+            "name": "Class_2",
+            "request": "launch",
+            "mainClass": "BroCode.Java.Class_2",
+            "projectName": "Visual Studio_4a84571b"
+        },
+        {
+            "type": "java",
             "name": "Hello",
             "request": "launch",
             "mainClass": "BroCode.Java.Hello",
