@@ -3,5 +3,18 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "panel.border": "#bdef55",
+        "sideBar.border": "#bdef55",
+        "statusBar.background": "#abea27",
+        "statusBar.border": "#abea27",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#8fca14",
+        "statusBarItem.remoteBackground": "#abea27",
+        "statusBarItem.remoteForeground": "#15202b",
+        "tab.activeBorder": "#bdef55",
+        "sash.hoverBorder": "#bdef55"
+    },
+    "peacock.color": "#abea27"
 }
