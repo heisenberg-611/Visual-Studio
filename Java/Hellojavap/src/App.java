@@ -1,13 +1,18 @@
-import java.util.Scanner;
-class App{
+public class App {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        input.close();
-        int count;
-        for(count=1; count <= 5; count++){
-            System.out.println("This is count: " + count);
-            System.out.println("Done");
-        }
 
+        double gallons, liters;
+        int counter;
+        counter = 0;
+        for(gallons = 1; gallons <= 100; gallons++) {
+            liters = gallons * 3.7854; // convert to liters
+            System.out.println(gallons + " gallons is " +
+                    liters + " liters.");
+            counter++;
+            // every 10th line, print a blank line
+            if(counter == 10) {
+                System.out.println();
+            }        counter = 0; // reset the line counter
+        }
     }
 }
