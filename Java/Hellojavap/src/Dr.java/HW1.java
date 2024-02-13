@@ -8,7 +8,7 @@ public class HW1 {
         a = sc.nextInt();
         o = a % 100;
         if(o < 0){
-            System.out.println(o = -o ); 
+        System.out.println(o = -o); 
         }
         else{
         System.out.println(o);
