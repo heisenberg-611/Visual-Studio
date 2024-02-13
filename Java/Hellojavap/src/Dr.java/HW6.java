@@ -1,14 +1,13 @@
 public class HW6 {
     public static void main(String[] args) {
-        float h=5, m=56, s=23;
+        float h=5f, m=56f, s=23f;
         float h1 = m/60;
         float h2 = s/(60*60);
         float hf=h+h1+h2;
-        float distance=(1279f/1000f);
+        float distance=(2500f/1000f);
         float Speed1=distance/hf;
-        System.out.printf("Your velocity in km/h is %.7f",Speed1);
-        System.out.println();
-        System.out.printf("Your velocity in miles/h is %.7f",Speed1/1.609);
+        System.out.printf("Your velocity in km/h is %.7f\n",Speed1);
+        System.out.printf("Your velocity in miles/h is %.7f\n",Speed1/1.609);
     }   
 }
 /* 7. You have been traveling on a bike for 5 hours, 56 minutes, and 23 seconds. 
