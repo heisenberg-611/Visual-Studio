@@ -2,13 +2,13 @@ import java.util.Scanner;
 public class HW1 {
     public static void main(String[] args)
     {
-        double num1, num2;
+        int num1, num2;
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter the numbers:");
        
-        num1 = sc.nextDouble();
-        num2 = sc.nextDouble();
+        num1 = sc.nextInt();
+        num2 = sc.nextInt();
  
         System.out.println("Enter the operator (+,-,*,/):");
  
