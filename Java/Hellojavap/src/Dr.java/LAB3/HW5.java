@@ -20,10 +20,7 @@ public class HW5 {
             int tax2 = payment*10/100;
             System.out.println("Your tax amounts is "+tax2+" Tk");
         }
-        
         sc.close();
-        
     }
-    
 }
     

@@ -38,7 +38,7 @@ public class Test {
       }
    }*/
    // hw - 06
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Test{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -80,4 +80,27 @@ public class Test{
 
     }
 }
-            
+        */
+        import java.util.Scanner;
+        public class Test{
+          public static void main(String[]args){
+            Scanner sc = new Scanner (System.in);
+            System.out.println("Enter your numbers");
+            float a= sc.nextFloat();
+            float b= sc.nextFloat();
+            float c= sc.nextFloat();
+            if(a>b && a>c && c<b){
+              System.out.println("Maximum number is " +a);
+              System.out.println("Minimum number is " +c);
+            }
+            else if(b>a && b>c && a<c){
+              System.out.println("Maximum number is " +b);
+              System.out.println("Minimum number is " +a);
+            }
+            else {
+              System.out.println("Maximum number is " +c);
+              System.out.println("Minimum number is " +b);
+            }
+            sc.close();
+          }
+        }    
