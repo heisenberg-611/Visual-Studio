@@ -3,13 +3,16 @@ public class HW2 {
     public static void main(String[] args){
         int num;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number:");
+        System.out.println("Enter a number:");
         num = sc.nextInt();
-        if(num % 5 == 0){
-            if(num % 7 == 0){  
+        if(num % 5 == 0)
+        {
+            if(num % 7 == 0)
+            {  
                 System.out.println("Divisible by Both");
             }
-            else{
+            else
+            {
                 System.out.println("Invalid: Divisible by 5 Only");
             }
         }

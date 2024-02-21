@@ -7,28 +7,28 @@ public class HW1 {
         System.out.println("Enter the numbers:");
        
         num1 = sc.nextInt();
-        num2 = sc.nextInt();sc.nextLine();
+        num2 = sc.nextInt();
  
         System.out.println("Enter the operator (+,-,*,/):");
  
-        //char operator = sc.next().charAt(0);
-        String operator = sc.nextLine();
+        //char op = sc.next().charAt(0);
+        String op = sc.next();
 
-        if(operator.equals("+")){
-            System.out.println("The sum of the numbers is:");
-            System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
+        if(op.equals("+")){
+            System.out.print("The sum of the numbers is: ");
+            System.out.print(num1 + num2);
         }
-        else if(operator.equals("-")){
-            System.out.println("The difference of the numbers is:");
-            System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
+        else if(op.equals("-")){
+            System.out.print("The difference of the numbers is: ");
+            System.out.print((num1 - num2));
         }
-        else if(operator.equals("*")){
-            System.out.println("The product of the numbers is:");
-            System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
+        else if(op.equals("*")){
+            System.out.print("The product of the numbers is: ");
+            System.out.print((num1 * num2));
         }
-        else if(operator.equals("/")){
-            System.out.println("The quotient of the numbers is:");
-            System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
+        else if(op.equals("/")){
+            System.out.print("The quotient of the numbers is: ");
+            System.out.print((num1 / num2));
         }
         else{
             System.out.println("Invalid operator");

@@ -14,10 +14,10 @@ public class HW4 {
             System.out.println("Student Joined BRAC in Fall "+year);
         }
         else if(session1 == 3){
-            System.out.println("Student Joined BRAC in Spring "+year);
+            System.out.println("Student Joined BRAC in Summer "+year);
         }
         else{
-            System.out.println("Invalid session");
+            System.out.println("Invalid ID");
         }
         sc.close();
     }
