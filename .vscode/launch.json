@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Class_15",
+            "request": "launch",
+            "mainClass": "BroCode.Java.Class_15",
+            "projectName": "Visual Studio_4a84571b"
+        },
+        {
+            "type": "java",
             "name": "Class_5",
             "request": "launch",
             "mainClass": "BroCode.Java.Class_5",

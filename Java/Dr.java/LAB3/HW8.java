@@ -14,6 +14,7 @@ public class HW8 {
         }
         else{
             System.out.println("Neither all are equal or different");
+            ;
         }
         sc.close();
     }
