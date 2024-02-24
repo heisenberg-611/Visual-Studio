@@ -1,19 +1,16 @@
 import java.util.Scanner;
+
 public class Test_Runner {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of terms: ");
-        int n = sc.nextInt();
-        int sum = 0;
-        System.out.println("Enter a number: ");
-        for(int i=0; i<n; i++){
-            
-            int num = sc.nextInt();
-            sum += num;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter an integer:");
+        String input = scanner.next();
+        for (int i = 0; i < input.length(); i++) {
+            System.out.print(input.charAt(i));
+            if (i != input.length() - 1) {
+                System.out.print(", ");
+            }
         }
-        double average = sum/n;
-        System.out.println("The sum of " + n + " no is: " + sum);
-        System.out.println("The average of " + n + " is: " + average);
-        sc.close();
+        scanner.close();
     }
 }
