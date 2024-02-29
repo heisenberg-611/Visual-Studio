@@ -15,7 +15,10 @@ public class HW5 {
         }
         x = (int) Math.pow(10, (count - 1));
         for (int i = 1; i <= count; i++) {
-            System.out.print(n1/x+",");
+            System.out.print(n1/x);
+            if(i != count){
+                System.out.print(", ");
+            }
             n1 = n1 % x;
             x = x / 10;
         }
