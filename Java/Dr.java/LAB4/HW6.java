@@ -13,6 +13,7 @@ public class HW6 {
                 sum = sum+i;
             }
         }
+        System.out.println(sum);
         if (sum == 2*n) 
         {
             System.out.println(n + " is a perfect number.");

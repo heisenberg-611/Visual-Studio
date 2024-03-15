@@ -1,17 +1,26 @@
 import java.util.Scanner;
 
-public class  Test_Runner {
+public class Test_Runner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("The value of N: ");
-        int N = scanner.nextInt();
-        scanner.close();
-        int sum = 0;
-        int y = 0;
-        for (int i = 1; i <= N; i++) {
-            sum += i; // Calculate the sum of the series 1+2+3+...+N
-            y -= sum; // Add the negative sum to y
+        System.out.println("Enter the starting number:");
+        int start = scanner.nextInt();
+        System.out.println("Enter the ending number:");
+        int end = scanner.nextInt();
+        System.out.println("Enter the divisor:");
+        int divisor = scanner.nextInt();
+
+        for (int i = start; i <= end; i++) {
+            int product = 1;
+            int number = i;
+            while (number != 0) {
+                product *= number % 10;
+                number /= 10;
+            }
+            if (product % divisor == 0) {
+                System.out.println(product);
+            }
         }
-        System.out.println("The value of y: " + y);
+        scanner.close();
     }
 }
