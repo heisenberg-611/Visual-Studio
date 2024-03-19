@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Setting_up_camp",
+            "request": "launch",
+            "mainClass": "Codeforces.Setting_up_camp",
+            "projectName": "Visual Studio_4a84571b"
+        },
+        {
+            "type": "java",
+            "name": "sadab",
+            "request": "launch",
+            "mainClass": "Class.sadab",
+            "projectName": "Visual Studio_4a84571b"
+        },
+        {
+            "type": "java",
             "name": "Class_15",
             "request": "launch",
             "mainClass": "BroCode.Java.Class_15",
