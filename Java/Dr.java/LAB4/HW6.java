@@ -7,14 +7,14 @@ public class HW6 {
         System.out.print("Enter the number: ");
         n = sc.nextInt();
         sc.close();
-        int i;
-        for (i = 1; i <= n; i++) {
+        int i=0;
+        for (i = 1; i < n; i++) {
             if (n % i == 0) {
                 sum = sum+i;
             }
         }
         System.out.println(sum);
-        if (sum == 2*n) 
+        if (sum == n) 
         {
             System.out.println(n + " is a perfect number.");
         } 
