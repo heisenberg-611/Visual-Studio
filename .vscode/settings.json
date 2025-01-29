@@ -3,19 +3,6 @@
         "iostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled",
-    "workbench.colorCustomizations": {
-        "tab.activeBorder": "#89b6d9",
-        "sideBar.border": "#89b6d9",
-        "statusBar.background": "#629ecd",
-        "statusBar.border": "#629ecd",
-        "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#3d86bf",
-        "statusBarItem.remoteBackground": "#629ecd",
-        "statusBarItem.remoteForeground": "#15202b",
-        "sash.hoverBorder": "#89b6d9",
-        "panel.border": "#89b6d9"
-    },
-    "peacock.color": "#629ecd",
     "python.testing.unittestArgs": [
         "-v",
         "-s",
