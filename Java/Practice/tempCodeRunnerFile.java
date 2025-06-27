@@ -1,0 +1,1 @@
+System.out.println("Enter "+matrix.length+" rows and "+ matrix[0].length+ " columns");
