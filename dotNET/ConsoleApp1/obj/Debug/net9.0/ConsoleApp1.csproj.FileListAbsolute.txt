@@ -1,0 +1,15 @@
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.deps.json
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.runtimeconfig.json
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.dll
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.pdb
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.AssemblyInfo.cs
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.sourcelink.json
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.dll
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/obj/Debug/net9.0/refint/ConsoleApp1.dll
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.pdb
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.genruntimeconfig.cache
+/Users/dhrubojyoti/Documents/Visual Studio/dotNET/ConsoleApp1/obj/Debug/net9.0/ref/ConsoleApp1.dll
