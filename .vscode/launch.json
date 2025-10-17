@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Visual Studio_4a84571b"
+        },
+        {
+            "type": "java",
             "name": "Setting_up_camp",
             "request": "launch",
             "mainClass": "Codeforces.Setting_up_camp",
