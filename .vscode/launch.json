@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fibonacchi",
+            "request": "launch",
+            "mainClass": "fibonacchi",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "A1",
+            "request": "launch",
+            "mainClass": "A1",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "fibonacchi",
+            "request": "launch",
+            "mainClass": "Java.Recursion.fibonacchi",
+            "projectName": "Visual Studio_4a84571b"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "Solution",
