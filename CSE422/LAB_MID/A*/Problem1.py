@@ -53,6 +53,7 @@ cost, path = astar(n, m, (sx, sy), (gx, gy), maze)
 
 if cost == -1:
     print(-1)
+    print("No path found")
 else:
-    print(cost)
-    print(path)
+    print("Total step: ", cost)
+    print("->".join(path))
