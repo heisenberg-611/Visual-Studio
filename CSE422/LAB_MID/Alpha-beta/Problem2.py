@@ -1,3 +1,3 @@
-if picked == 'S' and is_max:
-    multiplier = (first_two_digits) / 100
-    new_weights[i:] = [w * multiplier for w in weights[i:]]
+if picked == 'S' and is_max: # Check if the 'S' character was picked and the current node belongs to the max player
+    multiplier = (first_two_digits) / 100 # Calculate a multiplier constant by dividing the 'first_two_digits' variable by 100
+    new_weights[i:] = [w * multiplier for w in weights[i:]] # Apply this multiplier to all elements in 'weights' from index 'i' to the end, forming 'new_weights'
